@@ -51,10 +51,28 @@ nav li {
     margin-bottom: 100px;
 }
 
+.jumbo .container.large-container {
+    position: relative;
+}
+
+.jumbo .down-arrow {
+    position: absolute;
+    bottom: 10px;
+    font-size: 50px;
+}
+
 .jumbo h1 {
     font-size: 4rem;
     letter-spacing: 0.1rem;
     padding-bottom: 2.5rem;
+}
+
+.jumbo a.btn {
+    margin: 2rem 0;
+}
+
+.jumbo p {
+    line-height: 1.2rem;
 }
 
 .jumbo-main-content {
