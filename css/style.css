@@ -5,10 +5,59 @@
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 16px;
 }
 
-body {
-    color: red;
+li {
+    list-style-type: none;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Classes */
+
+nav {
+    position: sticky;
+    top: 0;
+    padding: 0.5rem 1rem;
+}
+
+nav li {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.left-menu-container {
+    padding-left: 2rem;
+}
+
+.right-menu-container {
+    padding-right: 2rem;
+}
+
+/* Flex Classes */
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+/* Main Classes */
+
+
+
+/*Footer Classes */
+
