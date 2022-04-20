@@ -224,16 +224,26 @@ main .bill-section h2 {
 }
 
 .large-col {
-    width: 65%;
+    width: 60%;
 }
 
 .contact-partner .small-col {
-    width: 35%;
-    padding: 3rem 2rem;
+    width: 40%;
+    padding: 3rem 1rem 0 4rem;
 }
 
 .contact-partner img {
     width: 100%;
+}
+
+.contact-partner h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.contact-partner p {
+    line-height: 1.3rem;
+    margin-bottom: 2rem;
 }
 
 .underline-link {
@@ -271,6 +281,12 @@ main .bill-section h2 {
 
 .btn-container {
     text-align: center;
+}
+
+.btn-gray {
+    border: 1px solid rgb(99, 93, 93);
+    color: rgb(99, 93, 93);
+    background-color: white;
 }
 
 /* Footer Classes */
