@@ -135,5 +135,18 @@ main .bill-section h2 {
     width: 100%;
 }
 
+.large-col {
+    width: 65%;
+}
+
+.contact-partner .small-col {
+    width: 35%;
+    padding: 3rem 2rem;
+}
+
+.contact-partner img {
+    width: 100%;
+}
+
 /*Footer Classes */
 
