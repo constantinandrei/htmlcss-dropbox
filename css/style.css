@@ -1,5 +1,5 @@
 * {
-    border: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -28,7 +28,7 @@ a:hover {
 nav {
     position: sticky;
     top: 0;
-    padding: 0.5rem 1rem;
+    padding: 1.5rem 1rem;
 }
 
 nav li {
@@ -44,10 +44,61 @@ nav li {
     padding-right: 2rem;
 }
 
+.jumbo {
+    background-color: #B4D0E7;
+}
+
+.jumbo h1 {
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 2.5rem;
+}
+
+.jumbo-main-content {
+    position: relative;
+    top: 100px;
+}
+
+.jumbo .container.large-container {
+    padding-top: 0;
+}
+
+.jumbo-main-content .col {
+    flex-basis: 30%;
+}
+
+.jumbo-img {
+    flex-basis: 70%;
+    flex-grow: 5;
+}
+
+.jumbo-img img {
+    width: 100%;
+}
+
+/* Containers */
+
+.container {
+    margin: auto;
+    padding: 2rem 1rem;
+    width: 100%;
+}
+
+.large-container {
+    max-width: 1150px;
+}
+
+.normal-container {
+    max-width: 960px;
+}
+
 /* Flex Classes */
 
 .flex {
     display: flex;
+}
+
+.flex-align-center {
     align-items: center;
 }
 
