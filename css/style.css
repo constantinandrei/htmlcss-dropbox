@@ -141,6 +141,7 @@ nav li {
 
 .col-3 {
     width: calc(100% / 3 - 1.5rem);
+    flex-grow: 1;
 }
 
 /* Main Classes */
@@ -320,6 +321,73 @@ main .bill-section h2 {
     border: 1px solid rgb(99, 93, 93);
     color: rgb(99, 93, 93);
     background-color: white;
+}
+
+/* Clients Image Classes */
+
+.clients .f-centered img {
+    width: 50%;
+    filter: invert();
+}
+
+.f-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.designit {
+    background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
+}
+
+.asu {
+    background-color: #61082A;
+}
+
+.uflorida {
+    background-color: #3193CE;
+}
+
+.topps {
+    background-color: #F51C1F;
+}
+
+.wbr {
+    background-color: #D5001E;
+}
+
+.hearst {
+    background-color: #B4D0E7;
+}
+
+.lonely {
+    background-color: #0E2481;
+}
+
+.clearc {
+    background-color: #FBD831;
+}
+
+.central-col {
+    width: calc(100vw / 3);
+}
+
+.col {
+    width: calc(100vw / 6 - 4px);
+    height: calc(100vw / 6 - 4px);
+}
+
+.designit-info {
+    background-color: #F5F5F5;
+    height: 100%;
+    padding: 4rem 2rem;
+}
+
+.designit-info img {
+    width: 60%;
 }
 
 /* Footer Classes */
