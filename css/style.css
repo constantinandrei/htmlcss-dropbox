@@ -408,6 +408,11 @@ main .bill-section h2 {
     margin-bottom: 6rem;
 }
 
+.designit-info {
+    max-height: calc(100vw / 3 - 8px);
+    overflow: scroll;
+}
+
 .designit-info p {
     margin-bottom: 4rem;
 }
