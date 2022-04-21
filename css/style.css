@@ -426,7 +426,27 @@ main .bill-section h2 {
     font-size: 0.9rem;
 }
 
+.large-line {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}
 
+.faq-arrow {
+    padding: 2rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.faq {
+    padding-bottom: 5rem;
+}
 
 /* Footer Classes */
 
