@@ -28,9 +28,10 @@ a:hover {
 nav {
     position: sticky;
     top: 0;
-    padding: 1.5rem 1rem;
+    padding: 1rem 1rem;
     background-color: white;
     z-index: 5;
+    font-size: 0.9rem;
 }
 
 nav li {
@@ -450,3 +451,37 @@ main .bill-section h2 {
 
 /* Footer Classes */
 
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.foot-col {
+    width: 20%;
+}
+
+footer li a {
+    color: white;
+    font-size: 0.9rem;
+    padding: .5rem 0;
+    display: inline-block;
+}
+
+footer h4 {
+    padding-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+footer .small-line {
+    padding-top: 5rem;
+    color: white;
+    width: 100px;
+}
+
+.lang-select {
+    color: gray;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
