@@ -53,3 +53,110 @@
     border-radius: 50%;
     background: white;
 }
+
+.client-info {
+    display: none;
+    width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
+    opacity: 1;
+    overflow: scroll;
+    padding: 4rem 2rem;
+    position: absolute;
+    left: calc(100% / 3);
+    top: 0;
+    z-index: 2;
+}
+
+.client-info img {
+    width: 50%;
+}
+
+.client-info p {
+    margin-bottom: 4rem;
+}
+
+.client-info .small-line {
+    width: 100px;
+}
+
+.asu-info {
+    background-color: #9f7585;
+}
+
+.f-centered {
+    cursor: pointer;
+}
+
+.asu:focus {
+    border: 15px solid #40071d;
+}
+
+.uflorida:focus {
+    border: 15px solid #135884;
+}
+
+.topps:focus {
+    border: 15px solid #992627;
+}
+
+.wbr:focus {
+    border: 15px solid #520711;
+}
+
+.hearst:focus {
+    border: 15px solid #5598ce;
+}
+
+.lonely:focus {
+    border: 15px solid #030b2d;
+}
+
+.clearc:focus {
+    border: 15px solid #a0880f;
+}
+
+.asu:focus ~ .asu-info {
+    display: block;
+}
+
+.uflorida:focus ~ .uflorida-info {
+    display: block;
+    background-color: #81a5bc;
+}
+
+.topps:focus ~ .topps-info {
+    display: block;
+    background-color: #a77e7e;
+}
+
+.wbr:focus ~ .wbr-info {
+    display: block;
+    background-color: #c09ba0;
+}
+
+.hearst:focus ~ .hearst-info {
+    display: block;
+    background-color: #b7c8d5;
+}
+
+.lonely:focus ~ .lonely-info {
+    display: block;
+    background-color: #7c8cd2;
+}
+
+.clearc:focus ~ .clearc-info {
+    display: block;
+    background-color: #ded5a7;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.designit-bonus {
+    background-color: #A2D39B;
+}
+
+.designit-bonus:focus {
+    border: 15px solid #D1E9CD;
+}
