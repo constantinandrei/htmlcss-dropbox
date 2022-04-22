@@ -160,3 +160,11 @@
 .designit-bonus:focus {
     border: 15px solid #D1E9CD;
 }
+
+.btn:hover {
+    background-color: #1d47c6;
+}
+
+.btn-gray:hover {
+    background-color: #dfd9d9;
+}
