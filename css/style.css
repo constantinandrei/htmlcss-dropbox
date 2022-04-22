@@ -143,6 +143,7 @@ nav li {
 .col-3 {
     width: calc(100% / 3 - 1.5rem);
     flex-grow: 1;
+    flex-basis: 0;
 }
 
 /* Main Classes */
@@ -382,14 +383,19 @@ main .bill-section h2 {
 }
 
 .col {
-    width: calc(100vw / 6 - 4px);
-    height: calc(100vw / 6 - 4px);
+    aspect-ratio: 1/1;
+    flex-basis: 50%;
+    flex-grow: 1;
 }
 
 .designit-info {
     background-color: #F5F5F5;
     height: 100%;
     padding: 4rem 2rem;
+}
+.designit-info {
+    overflow: scroll;
+    aspect-ratio: 1/1;
 }
 
 .designit-info img {
@@ -406,11 +412,6 @@ main .bill-section h2 {
 .clients-header a {
     display: inline-block;
     margin-bottom: 6rem;
-}
-
-.designit-info {
-    max-height: calc(100vw / 3 - 8px);
-    overflow: scroll;
 }
 
 .designit-info p {
